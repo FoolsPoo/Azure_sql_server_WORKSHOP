@@ -1,0 +1,7 @@
+
+delete database
+
+```
+ALTER DATABASE workshop SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+DROP DATABASE workshop;
+```
